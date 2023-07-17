@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(199, 150, 245);
+}
+
+h1{
+    background-color: rgb(255, 255, 255);
+
+}
+
+#show_sketch{
+    float: right;
+}
+
+p{
+    font-size: 20px;
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: anime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+@keyframes anime {
+    from {box-shadow: 1px 1px 40px purple;}
+    to {box-shadow: 1px 1px 40px blue;}
+}
